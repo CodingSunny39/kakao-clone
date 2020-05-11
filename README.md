@@ -1,2 +1,5 @@
 # kakao-clone
- kakao clone study
+
+kakao clone study
+
+kakao Desktop App Clone
