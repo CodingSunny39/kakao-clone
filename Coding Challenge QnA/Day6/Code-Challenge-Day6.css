@@ -1,0 +1,125 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding:0;}
+
+.Screen1{
+    width: 700px;
+    height: 520px;
+    margin:auto;
+    background-color:#76C4C6 ;
+    position: relative;
+    }
+    .circle1{
+        width: 100px;
+        height: 10px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom:0;
+        margin: auto;
+        animation:circle 0.5s ease-in-out infinite;
+        animation-duration: 1s;
+        animation-delay::0.5s;
+         }
+
+    .circle2{
+        width: 6px;
+        height: 6px;
+        margin:auto;
+        border-radius: 50%;
+        position: absolute;
+        background-color: white;
+      
+        }
+
+    .circle2:nth-child(1){
+        left:25%;
+        top:50%;
+    }
+    .circle2:nth-child(2){
+        left:50%;
+        top:50%;
+        }
+    .circle2:nth-child(3){
+        left:75%;
+        top:50%;
+    }
+@keyframes circle{
+   0%{transform:rotate(0);}
+   20%{transform:rotate(45deg);} 
+   50%{transform:rotate(90deg);}
+   70%{transform:rotate(180deg);}
+   100%{transform:rotate(360deg);}
+}
+    
+.screen2{
+    width: 700px;
+    height: 520px;
+    margin:70px auto auto auto;
+    background-color:#1EAC9C ;
+    position: relative;
+}
+ .square1{
+    width: 100px;
+    height:100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom:0;
+    margin: auto;
+    
+
+    
+ }
+ .square2{
+    width: 15px;
+    height: 50px;
+    margin:auto;
+    position: absolute;
+    background-color: white;
+    
+ }
+ .square2:nth-child(1){
+  left: 0%;
+  animation:0.5s square 0.2s ease-in-out infinite;
+  animation-duration: 2s;
+ 
+ }
+ .square2:nth-child(1){
+    left: 0%;
+    animation:0.5s square 0.1s ease-in-out infinite;
+    animation-duration: 1s;
+    
+    }
+    .square2:nth-child(2){
+      left: 25%;
+      animation:0.5s square 0.2s ease-in-out infinite;
+      animation-duration: 1s;
+    }
+    .square2:nth-child(3){
+      left: 50%; 
+      animation:0.5s square 0.3s ease-in-out infinite;
+      animation-duration: 1s;
+    }
+    .square2:nth-child(4){
+      left: 75%;
+      animation:0.5s square 0.4s ease-in-out infinite;
+      animation-duration: 1s;
+    }
+    .square2:nth-child(5){
+      left: 100%;
+      animation:0.5s square 0.5s ease-in-out infinite;
+      animation-duration: 1s;
+    
+    
+}
+@keyframes square{
+    0%{transform: scale(1,1);}
+    50%{transform: scale(1,2);}
+    100%{transform: scale(1,1);}
+   
+    
+}

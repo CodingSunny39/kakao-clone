@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap");
+
+a:link {
+  text-decoration: none;
+  color: whitesmoke;
+}
+a:visited {
+  text-decoration: none;
+  color: whitesmoke;
+}
+a:active {
+  text-decoration: none;
+  color: whitesmoke;
+}
+a:hover {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+body {
+  font-family: "Balsamiq Sans", cursive;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding-top: 50px;
+  padding-left: 50px;
+  color: #242A38;
+  display: flex;
+}
+
+.phone {
+  width: 300px;
+  height: 600px;
+  padding: 40px 20px;
+  border: 5px solid #f8f8f8;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.phone__signin {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: x-large;
+}
+
+.phone__email {
+  width: 280px;
+  height: 35px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  opacity: 50%;
+  border: 1px solid #efeef8;
+  border-radius: 8px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  cursor: line;
+}
+.phone__password {
+  width: 280px;
+  height: 35px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  opacity: 50%;
+  border: 1px solid #efeef8;
+  border-radius: 8px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  cursor: line;
+}
+
+.phone__forgot {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: small;
+  color: #e1283c;
+  cursor: pointer;
+}
+
+.phone_remember{
+   display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  
+  }
+
+
+.phone__signin-btn {
+  width: 290px;
+  height: 35px;
+  margin: 50px 0px;
+  background-color: #e1283c;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone__or {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-weight: 600;
+}
+
+.phone__snslink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.phone__snslink-fb {
+  width: 130px;
+  height: 35px;
+  margin-bottom: 35px;
+  background-color: #475a95;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.phone__snslink-Twit {
+  width: 130px;
+  height: 35px;
+  margin-bottom: 35px;
+  background-color: #5da1f2;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.phone__signup {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  opacity: 70%;
+  font-size: small;
+}
+
+.phone__signup-link {
+  margin-left: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #e1283c;
+  cursor: pointer;
+}
+.phone__retrive {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  opacity: 70%;
+  font-size: small;
+}
+
+.phone__retrive-link {
+  margin-left: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #e1283c;
+  cursor: pointer;
+}

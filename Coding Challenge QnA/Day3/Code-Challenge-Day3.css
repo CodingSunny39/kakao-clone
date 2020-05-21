@@ -1,0 +1,45 @@
+body {
+  height: 1500px;
+  margin: 0px 20px;
+  padding: 0;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+#red {
+  height: 100px;
+  width: 800px;
+  background-color: #FF7979;
+  position: fixed;
+}
+#blue {
+  height: 400px;
+  width: 500px;
+  margin: 100px 0px;
+  padding: 50px;
+  background-color: #7ed6df;
+  display: inline-block;
+  position: relative;
+}
+#yellow {
+  height: 490px;
+  width: 190px;
+  margin: 100px 0px;
+  background-color: #FFCC00;
+  border: 5px solid grey;
+  display: inline-block;
+  position: absolute;
+}
+#green {
+  height:40px;
+  width: 100px;
+  background-color: yellowgreen;
+  display: inline-block;
+  position: absolute;
+  top: 80px;
+  left: 570px;
+}

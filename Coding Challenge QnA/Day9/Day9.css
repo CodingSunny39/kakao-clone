@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+
+
+body{
+    font-family: "Balsamiq+Sans";
+    width: 520px;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+        }
+
+.apple {
+    display: flex;
+    height: 600px;
+    background-color: white;
+    }
+   
+   .apple__text-titile{
+    color:;
+    font-weight:700 
+    }
+    .apple__text-detail{
+        color:;
+    }
+    .apple__under-price{
+        color:;
+    }
+    .apple__under-star{
+        color:;
+    }
+
+
+.profile{ height: 300px;
+        margin-top: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+  
+    .profile__wallpaper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile__pic{ display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+       
+   
+   }
+   .profile__name{
+      
+   }
+   .profile__occupation{
+     
+   }
+   .profile__nav{
+    cursor: pointer;
+   }
+   .profile__nav-follow{
+       background-color:#6A75FF ;
+       color: #E2E5FE;
+   }
+   .profile__nav-message{
+       background-color: #EAECFF;
+   }
